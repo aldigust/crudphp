@@ -10,10 +10,10 @@
         
         if (checkAuth()) { ?>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/views/pages/home.php">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/views/pages/home.php?page=users">User</a>
+                <a class="nav-link" href="index.php?page=users">User</a>
             </li>
              <li class="nav-item">
                 <a class="nav-link" href="/proses/logout.php">Logout</a>

@@ -23,7 +23,7 @@ if ($checkUsername->num_rows == 0) {
         $data = mysqli_fetch_assoc($user);
         $_SESSION['username'] = $data['username'];
         $_SESSION['login'] = true;
-        header('Location: ../views/pages/home.php');
+        header('Location: /');
     }
 
     echo "Data tidak ditemukan";
